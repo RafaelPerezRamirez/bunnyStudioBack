@@ -7,7 +7,7 @@ const app = express();
 connectDB();
 
 app.use(express.json({ extended: true }))
-app.use(cors({origin: 'http://localhost:3000'}));
+app.use(cors({origin: 'https://inspiring-albattani-2c7738.netlify.app'}));
 
 const PORT = process.env.port || 4000;
 
